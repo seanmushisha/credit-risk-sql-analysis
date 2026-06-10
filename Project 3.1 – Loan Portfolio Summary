@@ -1,0 +1,22 @@
+# Loan Portfolio Summary – Project 3.1
+
+## Objective
+Summarize default rates across borrower segments (income, age, contract type, children, gender).
+
+## Data Source
+Home Credit dataset (`application_train.csv`), ~300k loans.
+
+## Key Findings
+- Default rate is highest among **male** borrowers (X%) and **young** borrowers (Y%).
+- **Cash loans** default more often than revolving loans.
+- Borrowers with children have a **8.92%** default rate vs. **7.71%** without children.
+
+## SQL Queries Used
+- Default rate by income bracket
+- Default rate by age group
+- Default rate by contract type
+- Default rate by children (binary)
+- Default rate by gender
+
+## Conclusion
+Income, age, and Gender are the strongest predictors among these basic segments. Children and contract type show weaker differences.
