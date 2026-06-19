@@ -1,20 +1,23 @@
-Credit Risk SQL Analysis
-This project explores loan default risk using the Home Credit Default Risk dataset. Instead of building a model, the focus is on querying, aggregating, and joining data — exactly what a risk analyst does before any modeling happens.
+# Credit Risk SQL Analysis
 
-What This Repository Contains
+This project explores loan default risk using the Home Credit Default Risk dataset. Instead of building a model, the focus is on **querying, aggregating, and joining data** — exactly what a risk analyst does before any modeling happens.
+
+## What This Repository Contains
+
 Three SQL‑based projects that progressively build in complexity:
 
-Loan Portfolio Summary (3.1)
-Basic aggregations: default rates by income, age, contract type, children, and gender.
+1. **Loan Portfolio Summary (3.1)**  
+   Basic aggregations: default rates by income, age, contract type, children, and gender.
 
-Payment History Analysis (3.2)
-Joins borrower data with installment payments to calculate late payments, average days past due, and proves that payment history predicts default better than application data alone.
+2. **Payment History Analysis (3.2)**  
+   Joins borrower data with installment payments to calculate late payments, average days past due, and proves that payment history predicts default better than application data alone.
 
-Risk Dashboard Queries (3.3)
-SQL queries designed to feed a Tableau / Power BI dashboard: monthly default trends, risk segmentation, and custom scoring rules.
+3. **Risk Dashboard Queries (3.3)**  
+   SQL queries designed to feed a Tableau / Power BI dashboard: monthly default trends, risk segmentation, and custom scoring rules.
 
-Tools Used
-SQLite / MySQL
-Home Credit dataset (Kaggle)
-DB Browser / Mode Analytics (optional)
+## Tools Used
+
+- SQLite / MySQL
+- Home Credit dataset (Kaggle)
+- DB Browser / Mode Analytics (optional)
  
